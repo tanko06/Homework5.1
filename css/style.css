@@ -1,0 +1,164 @@
+    @font-face {
+        font-family: 'Arimo';
+        src: local('Arimo'),
+            url('../fonts/Arimo-Regular.ttf') format('truetype');
+    }
+
+/*     @font-face {
+        font-family: "Arimo";
+        src: url("../fonts/arimo.eot");
+        src: url("../fonts/arimo.eot?#iefix") format("embedded-opentype"),
+            url("../fonts/arimo.otf") format("opentype"),
+            url("../fonts/arimo.svg") format("svg"),
+            url("../fonts/Arimo-Regular.ttf") format("truetype"),
+            url("../fonts/arimo.woff") format("woff"), 
+            url("../fonts/arimo.woff2") format("woff2");
+        font-weight: normal;
+        font-style: normal;
+    } */
+
+    body {
+    font-family: 'Arimo';
+    }
+    .container{
+        max-width: 1286px;
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+    }
+    table{
+        border-top: 29px solid #3A4965;
+        border-right: 30px solid #3A4965;
+        border-bottom: 22px solid #3A4965;
+        border-left: 26px solid #3A4965;
+    }
+    .headd{
+        width: 199px;
+        /* height: 113px; */
+        padding-top: 40px;
+        padding-bottom: 39px;
+        background-color: #fafafa;
+        vertical-align: middle;
+    }
+    .choice{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        /* height: 100%; */
+    }
+    .choose{
+        font-size: 14px;
+        color: #484848;
+        font-weight: 700;
+        margin-bottom: 9px;
+    }
+    .plan{
+        font-size: 20px;
+        color: #484848;
+        font-weight: 700;
+    }
+    .standart{
+        color: #ffffff;
+        background-color: #89C331;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 16px;
+        width: 199px;
+    }
+    .hd{
+        font-size: 24px;
+        font-weight: bold;
+        
+    }
+    .price{
+        display: flex;
+        margin: 22px 1px 23px 0;
+        justify-content: center;
+    }
+    .big{
+        font-size: 36px;
+        font-weight: bold;
+    }
+    .cent{
+        font-size: 18px;
+        padding-top: 4px;
+        margin-right: 8px;
+        font-weight: bold;
+    }
+    .per{
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+    }
+    .ultimate{
+        color: #ffffff;
+        background-color: #F04A56;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 16px;
+        width: 199px;
+    }
+    .premium{
+        color: #ffffff;
+        background-color: #20807C;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 16px;
+        width: 199px;
+    }
+    button{
+        width: 145px;
+        height: 42px;
+        color: #ffffff;
+        border: 0;
+        border-radius: 6px;
+        font-size: 16px;
+        font-weight: 700;
+        background: linear-gradient(to top, #404040 12%, #484848 12%);
+    }
+    button:hover{
+        background: #ffffff;
+        color: #444444;
+        border: 1px solid #444444;
+        box-shadow: 5px 5px 5px #444444;
+    }
+    i.fas, i.far{
+        color: #848484;
+        font-size: 20px;
+    }
+    .type{
+        font-size: 24px;
+        color: #484848;
+        width: 158px;
+        /* height: 113px; */
+/*         display: flex;
+        align-items: center;
+        flex-direction: column; */
+        padding-top: 37px;
+        padding-bottom: 35px;
+    }
+    .gray{
+        background-color: #E3E3E3;
+    }
+    .wh{
+        background-color: #F2F2F2;
+    }
+    td{
+        vertical-align: middle;
+    }
+    td:nth-child(even){
+        background-color: #E3E3E3;
+        font-size: 16px;
+        text-align: center;
+        color: #484848;
+        box-shadow: 0 -3px  1px rgba(34, 60, 80, 0.116);
+    }
+    td:nth-child(odd){
+        background-color: #F2F2F2;
+        font-size: 16px;
+        text-align: center;
+        color: #484848;
+        box-shadow: 0 -3px  1px rgba(34, 60, 80, 0.116);
+    }
